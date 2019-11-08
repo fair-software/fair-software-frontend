@@ -22,7 +22,7 @@
                         s-0.2,6.3-0.2,6.3"/>
                 </svg>
             </div>
-            <form ref="form" class="e-form" @submit.prevent="submit">
+            <form action='/endorse' ref="form" class="e-form" name="endorsement" netlify data-netlify="true" @submit.prevent="submit">
                 <div class="close" @click="toggleForm()">
                     <div></div>
                     <div></div>
@@ -130,11 +130,28 @@
                 }, 1500);
             },
             submit() {
-                let self = this
-                axios.get(this.$axios.defaults.baseURL +'?firstname='+ this.fields.firstname +'&lastname='+ this.fields.lastname +'&email='+ this.fields.email +'&token=648903009')
+                let self = this;
+                const toPost = {
+                    'form-name': 'endorsement',
+                    'firstname': this.fields.firstname,
+                    'lastname': this.fields.lastname,
+                    'email': this.fields.email
+                };
+                const formData = new FormData();
+                for ( let key in toPost ) {
+                    formData.append(key, toPost[key]);
+                }
+                axios({
+                    url: window.location.origin + '/endorse',
+                    method: 'POST',
+                    data: formData,
+                    headers: {
+                        'Content-Type': 'multipart/form-data'
+                    }
+                })
                 .then((response) => {
                     // console.log(response.data)
-                    if (Object.keys(response.data.errors).length !== 0) {
+                    if (response.data.errors && Object.keys(response.data.errors).length !== 0) {
                         self.errors = response.data.errors
                     } else {
                         self.$refs.form.classList.add('turn')
