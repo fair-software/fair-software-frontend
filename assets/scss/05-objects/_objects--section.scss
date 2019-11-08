@@ -1,0 +1,10 @@
+.o-section {
+    max-height: calc(100vh + 1px);
+    overflow: hidden;
+
+    &.o-section--page,
+    &.open {
+        max-height: 9999vh;
+    }
+
+}

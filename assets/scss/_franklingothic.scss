@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Franklin Gothic Condensed Web';
+    font-style: normal;
+    font-weight: 800;
+    // src: local("Franklin Gothic Condensed Web"), url("/fonts/franklingothic-condensed-webfont") format("woff"), url("/fonts/franklingothic-condensed-webfont") format("woff2");
+    src: url('/fonts/franklingothic-condensed-webfont.woff2') format('woff2'),
+         url('/fonts/franklingothic-condensed-webfont.woff') format('woff');
+}

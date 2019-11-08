@@ -1,0 +1,37 @@
+.o-container{
+    margin: 0 auto; 
+    padding: 0 2.5rem;  
+    width: 100%;
+    max-width: $containerWidth;
+  
+    @include bp( max, $tablet-landscape ){
+        max-width: 85%;
+    }
+    @include bp( max, $phablet ){
+        max-width: 100%;
+    }
+
+    &__medium{
+        width: ( 100 / 12 ) * 10%;
+        max-width: ($containerWidth / 12 ) * 10;
+        
+        @include bp( max, $tablet-portrait ){
+            width: ( 100 / 12 ) * 11%;
+        }
+        @include bp( max, $phablet ){
+            width: 100%;
+        } 
+    }
+    
+    &__small {
+        width: ( 100 / 12 ) * 10%;
+        max-width: ($containerWidth / 12 ) * 8;
+
+        @include bp( max, $tablet-portrait ){
+            width: ( 100 / 12 ) * 11%;
+        }
+        @include bp( max, $phablet ){
+            width: 100%;
+        } 
+    }
+}

@@ -1,0 +1,54 @@
+.m-bg--black {
+    background-color: black;
+}
+
+.m-bg--dark {
+    background-color: $dark;
+}
+
+.m-inverted {
+    color: white;
+    h1,h2,h3,h4,h4,p,li {
+        color: white;
+    }
+    li:before {
+        background-color: white;
+    }
+}
+
+.m-relative {
+    position: relative;
+}
+
+.m-align-right {
+    text-align: right;
+}
+
+.m-align-center {
+    text-align: center;
+}
+
+.m-show-tablet-landscape {
+    display: none !important;
+    @include bp( max, $tablet-landscape ){
+        display: block !important;
+    }
+}
+
+.m-show-phablet {
+    display: none !important;
+    @include bp( max, $phablet ){
+        display: block !important;
+    }
+}
+
+.m-hide-phablet {
+    display: block !important;
+    @include bp( max, $phablet ){
+        display: none !important;
+    }
+}
+
+.m-opacity--none {
+    opacity: 0 !important;
+}

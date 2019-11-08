@@ -1,0 +1,32 @@
+{
+  "name": "fair-software",
+  "version": "1.0.0",
+  "description": "Recommendations for research software",
+  "author": "Sjoerd Oudman",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.6.0",
+    "axios": "^0.19.0",
+    "gsap": "^2.1.3",
+    "nodemailer": "^6.3.1",
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^7.1.0",
+    "vue-jest": "^3.0.3"
+  }
+}

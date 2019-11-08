@@ -1,0 +1,126 @@
+.e-form {
+    
+    label, input {
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    label {
+        display: block;
+        opacity: .5;
+
+        sup {
+            position: absolute;
+            right: -1rem;
+            top: -5px;
+        }
+    }
+
+    &__group {
+        margin: 1.5rem 0;
+        position: relative;
+
+        &.secret {
+            position: absolute;
+            z-index: -10;
+            left: -100vw;
+        }
+    }
+
+    input + label {
+        position: absolute;
+        top: 1.9rem;
+        font-size: 1.6rem;
+        left: 0;
+        transition: 200ms;
+        z-index: 0;
+
+        @include bp( max, $desktop) {
+            top: 30px;
+        }
+    }
+
+    input, textarea {
+        width: 0;
+        position: relative;
+        background-color: transparent;
+        transition: 500ms ease-in-out;
+        color: white;
+        z-index: 1;
+    }
+    
+    input {
+        margin-top: 1.5rem;
+        width: 100%;
+        padding: 0px 0;
+        height: 40px;
+        border: 0px transparent;
+        border-style: none;
+        border-bottom: 2px solid rgba(white, .6);
+
+        &:focus,  &.activated  {
+            outline: none;
+
+            & + label {
+                top: -.5rem;
+                font-size: 1.4rem;
+            }
+        }
+        &:focus {
+            border-bottom: 2px solid rgba(white, .9);
+            color: white;
+        }
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover, 
+    input:-webkit-autofill:focus {
+        color: white;
+        -webkit-text-fill-color: white;
+        -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+    
+    button {
+        display: inline-block;
+        background-color: white;
+        color: $dark;
+        padding: 1.5rem 2rem;
+        transition: .3s ease-in-out;
+        text-transform: uppercase;
+        border-style: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
+        &:focus {
+            outline: none;
+            background-color: darken(white, 5%);
+        }
+
+        &:hover {
+            background-color: $primarycolor;
+            color: white;
+        }
+    }
+
+
+    // validation
+    p.warning {
+        display: block;
+        max-height: 0;
+        overflow: hidden;
+        transition: .5s ease-in-out;
+
+        &.show {
+            max-height: 100px;
+        }
+
+        span {
+            display: block;
+            margin: 1.5rem 0 0;
+            padding: 1rem;
+            color: white;
+            background-color: #C96A6A;
+            transition: .3s ease-in-out;
+        }
+    }
+}

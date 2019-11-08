@@ -1,0 +1,44 @@
+/*
+    This .scss loop will create "margin helpers" and "padding helpers" for use in your web projects.
+    It is aimed at keeping a constant vertical rythm in your theme
+    It will generate several classes such as:
+    .m-r-space which gives margin-right of base amount.
+    .m-t-space gives MARGIN to the TOP base amount and so on.
+    .p-b-space gives PADDING to the BOTTOM of the base amount
+    .p-l-space gives PADDING to the LEFT of the base amount
+    The first letter is "m" or "p" for MARGIN or PADDING
+    Second letter is "t", "b", "l", or "r" for TOP, BOTTOM, LEFT, or RIGHT
+    Third is the base amount, this can alse be prefixed with half- or quarter to give a diffent amount. 
+    These amounts can also be adjusted responsively, on smaller screen sizes it generally works better to move these closer to each other
+*/
+
+// $base-space                     : 6.5vh;
+$base-space                     : calc(2vw + 2vh + 2rem);
+$half-base-space                : calc(1vw + 1vh + 1rem);
+$quarter-base-space             : calc(0.5vw + 0.5vh + 0.5rem);
+$three-quarter-base-space       : calc(1.5vw + 1.5vh + 1.5rem);
+$double-space                   : calc(4vw + 4vh + 4rem);
+
+$spaceamounts: (
+	space                   : $base-space,
+	half-space              : $half-base-space,
+    quarter-space           : $quarter-base-space,
+    three-quarter-space     : $three-quarter-base-space,
+    double-space            : $double-space 
+);
+
+$sides: (top, bottom, left, right); // Leave this variable alone
+
+
+@each $space, $amount in $spaceamounts {      
+    @each $side in $sides {
+        .m-#{str-slice($side, 0, 1)}-#{$space} {
+            margin-#{$side}: #{$amount} !important;
+        }
+        .p-#{str-slice($side, 0, 1)}-#{$space} {
+            padding-#{$side}: #{$amount} !important;
+        }
+    }
+}
+
+$contentPadding: ($half-base-space) ($half-base-space);

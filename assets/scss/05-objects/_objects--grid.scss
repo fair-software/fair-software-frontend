@@ -1,0 +1,194 @@
+.o-grid {
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-.75vw + -.75vh + -.75rem);
+        margin-right: calc(-.75vw + -.75vh + -.75rem);
+        min-width: 100%;
+
+        @include bp( max, $phablet ){
+            margin-left: -2rem;
+            margin-right: -2rem;
+        }
+    
+        .c-grid {
+            &__row {
+                min-width: unset;
+            }
+        }
+    }
+
+    &__col {
+        padding-left: calc(.75vw + .75vh + .75rem);
+        padding-right: calc(.75vw + .75vh + .75rem);
+
+        @include bp( max, $phablet ){
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    }
+
+    &__content-col {
+        max-width: 80%;
+
+        @include bp( max, $tablet-landscape ){
+            max-width: 100%;
+        }
+    }
+
+    &--gap-small {
+        .o-grid__row {
+            margin-left: -.5em;
+            margin-right: -.5em;
+            .o-grid__col {
+                padding-left: .5em;
+                padding-right: .5em;
+            }
+        }
+    }
+    &--gap-none {
+        .o-grid__row {
+            margin-left: 0;
+            margin-right: 0;
+            .o-grid__col {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+.push-2_3 {
+    padding-left: 2 / 3 * 100%;
+}
+.push-1_12 {
+    padding-left: 1 / 12 * 100%;
+}
+.push-2_12 {
+    padding-left: 2 / 12 * 100%;
+}
+
+.tablet-landscape-push-0 {
+    @include bp( max, $tablet-landscape ){
+        padding-left: unset;
+        &.c-grid__col {
+            padding-left: 2rem;
+        }
+    }
+}
+
+.all-1_1 {
+    width: 100%;
+}
+.all-1_2 {
+    width: 50%;
+}
+.all-1_3 {
+    width: 1 / 3 * 100%;
+}
+.all-2_3 {
+    width: 2 / 3 * 100%;
+}
+.all-1_4 {
+    width: 1 / 4 * 100%;
+}
+.all-3_4 {
+    width: 3 / 4 * 100%;
+}
+.all-1_8 {
+    width: 1 / 8 * 100%; 
+}
+.all-7_8 {
+    width: 7 / 8 * 100%; 
+}
+.all-4_12 {
+    width: 4 / 12 * 100%;
+}
+.all-5_12 {
+    width: 5 / 12 * 100%;
+}
+.all-7_12 {
+    width: 7 / 12 * 100%;
+}
+.all-10_12 {
+    width: 10 / 12 * 100%;
+}
+
+.tablet-landscape-1_1 {
+    @include bp( max, $tablet-landscape ){
+        width: 100%;
+    }
+}
+
+.tablet-landscape-1_2 {
+    @include bp( max, $tablet-landscape ){
+        width: 50%;
+    }
+}
+
+.tablet-landscape-1_3 {
+    @include bp( max, $tablet-landscape ){
+        width: 1 / 3 * 100%;
+    }
+}
+
+.tablet-landscape-2_3 {
+    @include bp( max, $tablet-landscape ){
+        width: 2 / 3 * 100%;
+    }
+}
+
+.tablet-landscape-1_4 {
+    @include bp( max, $tablet-landscape ){
+        width: 1 / 4 * 100%;
+    }
+}
+
+.tablet-landscape-3_4 {
+    @include bp( max, $tablet-landscape ){
+        width: 3 / 4 * 100%;
+    }
+}
+
+.tablet-portrait-1_1 {
+    @include bp( max, $tablet-portrait ){
+        width: 100%;
+    }
+}
+
+.tablet-portrait-1_2 {
+    @include bp( max, $tablet-portrait ){
+        width: 50%;
+    }
+}
+
+.tablet-portrait-3_4 {
+    @include bp( max, $tablet-portrait ){
+        width: 75%;
+    }
+}
+
+.tablet-portrait-1_4 {
+    @include bp( max, $tablet-portrait ){
+        width: 25%;
+    }
+}
+
+.phablet-0_0 {
+    @include bp( max, $phablet ){
+        display: none;
+    }
+}
+
+.phablet-1_1 {
+    @include bp( max, $phablet ){
+        width: 100% !important;
+    }
+}
+
+.phablet-1_2 {
+    @include bp( max, $phablet ){
+        width: 50% !important;
+    }
+}

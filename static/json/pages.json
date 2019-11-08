@@ -1,0 +1,104 @@
+[
+    {
+        "title" : "Five <strong><a href='/recommendations/repository'>recommendations</a></strong> for f.a.i.r. software",
+        "menu_title" : "Five recommendations",
+        "slug" : "home",
+        "image" : "/img/fair_hand.svg",
+        "links" : [
+            {
+                "title" : "What's F.A.I.R",
+                "url" : "/about"
+            },
+            {
+                "title" : "About us",
+                "url" : "/colofon"
+            }
+        ],
+        "meta" : {
+            "ogTitle" : "F.A.I.R.",
+            "ogDescription" : "Five recommendations for FAIR software",
+            "ogImage" : "/img/og.png"
+        }
+    },
+    {
+        "title" : "What is F.A.I.R?",
+        "menu_title" : "What is F.A.I.R?",
+        "slug" : "about",
+        "paragraphs" : [
+            {
+                "type" : "WYSIWYG",
+                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+            }
+        ],
+        "links" : [
+            {
+                "title" : "About us",
+                "url" : "/colofon"
+            }
+        ],
+        "meta" : {
+            "ogTitle" : "About F.A.I.R.",
+            "ogDescription" : "Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat",
+            "ogImage" : "/img/og.png"
+        }
+    },
+    {
+        "title" : "Colofon",
+        "menu_title" : "About us",
+        "slug" : "colofon",
+        "animation" : "/json/animation-diamond2.json",
+        "paragraphs" : [
+            {
+                "type" : "WYSIWYG",
+                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+            }
+        ],
+        "links" : [
+            {
+                "title" : "What is F.A.I.R?",
+                "url" : "/about"
+            }
+        ],
+        "meta" : {
+            "ogTitle" : "Colofon",
+            "ogDescription" : "Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat",
+            "ogImage" : "/img/og.png"
+        }
+    },
+    {
+        "title" : "Our Endorsers",
+        "menu_title" : "Our Endorsers",
+        "slug" : "endorse",
+        "paragraphs" : [
+            {
+                "type" : "WYSIWYG",
+                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+            },
+            {
+                "type" : "logo_grid",
+                "items" : [
+                    {
+                        "title" : "UVA",
+                        "link" : "https://www.uva.nl/",
+                        "image" : "/img/uva.jpg"
+                    },
+                    {
+                        "title" : "TU Delft",
+                        "link" : "https://www.tudelft.nl/",
+                        "image" : "/img/tudelft.jpg"
+                    },
+                    {
+                        "title" : "University of Cambridge",
+                        "link" : "https://www.cambridge.com/",
+                        "image" : "/img/cambridge.jpg"
+                    }
+                ]
+            }
+        ],
+        "meta" : {
+            "ogTitle" : "Endorsements",
+            "ogDescription" : "Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat",
+            "ogImage" : "/img/og.png"
+        }
+    }
+]

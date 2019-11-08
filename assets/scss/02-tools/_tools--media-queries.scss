@@ -1,0 +1,51 @@
+
+@function toEm( $value ) {
+    @if type-of( $value ) == 'number' and not unitless( $value ) {
+        @return $value  / ( $value * 0 + 1 ) / 16 + em;
+      }
+    @return $value  / 16 + em;
+}    
+
+
+// Device Breakpoints
+// ----------------------------------------
+
+$phone:		        480 ;
+$phablet:	        620 ;
+$tablet-portrait:	860 ;
+$tablet-landscape:	1024 ;
+$desktop:           1280 ;
+$widescreen:        1440 ;
+
+
+
+// Media Querie Mixin
+// ----------------------------------------
+
+@mixin bp( $type, $first:1, $second:1) {
+
+    // type = minMax : between max and min screensize
+    //__________________________________________________________
+    @if( $type == maxMin ){
+        @media only screen and ( max-width: toEm( $first ) ) and ( min-width: toEm( $second + 1) ){
+            @content;
+        }
+    } 
+
+    // type = min : min screensize and above
+    //__________________________________________________________
+    @if( $type == min ){
+        @media only screen and ( min-width: toEm( $first + 1 ) ){
+            @content;
+        }
+    } 
+
+    // type = max : max screensize and below
+    //__________________________________________________________
+    @if( $type == max ){
+        @media only screen and ( max-width: toEm( $first ) ){
+            @content;
+        }
+    } 
+
+}

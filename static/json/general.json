@@ -1,0 +1,16 @@
+{
+    "contact" : {
+        "title" : "Contact",
+        "text" : "Netherlands eScience Center<br><a href='tel:0031204604770'>+31 20 4604770</a><br><a href='mailto:info@eScienceCenter.nl'>info@eScienceCenter.nl</a>"
+    },
+    "social" : {
+        "title" : "Share",
+        "items" : [
+            {
+                "title" : "",
+                "link" : "",
+                "icon" : ""
+            }
+        ]
+    }
+}
