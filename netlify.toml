@@ -11,7 +11,7 @@
   publish = "dist/"
 
   # Default build command.
-  command = "sh -c 'npm start &; npm run generate; killall node'"
+  command = "sh -c 'npm run build; npm start & npm run generate; killall npm'"
 
   # Directory with the serverless Lambda functions to deploy to AWS.
   #functions = "project/functions/"
