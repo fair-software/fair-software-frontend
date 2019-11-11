@@ -121,7 +121,7 @@
         },
         fetch ({ store, params }) {
             const existing = store.state.endorsement_list
-            if (existing.length > 0) {
+            if (existing && existing.length > 0) {
                 return
             }
             return wp.endorsements( null )
