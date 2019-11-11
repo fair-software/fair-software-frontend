@@ -496,7 +496,7 @@
     @import '~assets/scss/01-settings/_settings--variables.scss';
     @import '~assets/scss/02-tools/_tools--media-queries.scss';
   .site {
-    cursor: url('http://localhost:3333/img/empty.png'), auto;
+    cursor: url('/img/empty.png'), auto;
     background-color: #FFFFFF;
 
     #cursor {
