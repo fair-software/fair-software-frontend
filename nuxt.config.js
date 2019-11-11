@@ -25,9 +25,7 @@ export default {
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon/favicon-32x32.png' },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon/favicon-16x16.png' },
       { rel: 'manifest', href: '/favicon/site.webmanifest' },
-      { rel: 'manifest', href: '/favicon/site.webmanifest' }
-    ],
-    link: [
+      { rel: 'manifest', href: '/favicon/site.webmanifest' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap' }
     ],
     script: [
@@ -89,25 +87,9 @@ export default {
   },
 
   generate: {
-    routes: function () {
-      let allRoutes = [];
-      let pageRoutes = [];
-      let recRoutes = [];
-      return axios.get('http://localhost:3333/json/pages.json')
-      .then((res) => {
-        res.data.map((page) => {
-          pageRoutes.push(page.slug)
-        })
-      }).then(function() {
-        return axios.get('http://localhost:3333/json/recommendations.json')
-        .then((res) => {
-          res.data.map((recommendation) => {
-            recRoutes.push('/recommendations/' + recommendation.slug)
-          })
-          allRoutes = pageRoutes.concat(recRoutes)
-          return allRoutes
-        })
-      })
-    }
+    routes: () => [
+      ...require('./static/json/pages.json').map(page => page.slug),
+      ...require('./static/json/recommendations.json').map(rec => `/recommendations/${rec.slug}`),
+    ]
   }
 }
