@@ -120,14 +120,15 @@
             }
         },
         fetch ({ store, params }) {
-            const existing = store.state.endorsement_list
-            if (existing && existing.length > 0) {
-                return
-            }
-            return wp.endorsements( null )
-                .then(json => {
-                    store.commit('endorsements_update', json.endorsements)
-                })
+            return;
+            // const existing = store.state.endorsement_list
+            // if (existing && existing.length > 0) {
+            //     return
+            // }
+            // return wp.endorsements( null )
+            //     .then(json => {
+            //         store.commit('endorsements_update', json.endorsements)
+            //     })
         },
         computed: mapState(['endorsement_list']),
         methods: {
