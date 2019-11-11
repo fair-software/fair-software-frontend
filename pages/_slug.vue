@@ -45,16 +45,6 @@
                                             <div v-else id="bm"></div>
                                         </figure>
                                     </section>
-                                    <section>
-                                        <div class="m-t-space">
-                                            <h2>{{ 'Individual endorsements' }}</h2>
-                                            <p>
-                                                <span v-for="(endorsement, index) in endorsement_list" :key="index">
-                                                    {{ endorsement.title.rendered }}{{ (index + 1) == endorsement_list.length ? '' : ', ' }}
-                                                </span>
-                                            </p>
-                                        </div>
-                                    </section>
                                 </div>
                             </div>
                             <div class="all-1_3 phablet-1_1 m-b-double-space">
@@ -67,7 +57,7 @@
                                     </div>
                                 </div> 
                                 <div v-else class="o-grid__col">
-                                    <endorse-form :endorsements="endorsement_list"></endorse-form>
+                                    <endorse-form :num_endorsements="num_endorsements"></endorse-form>
                                 </div>   
                             </div>
                         </div>
@@ -85,8 +75,7 @@
     import pages from '~/static/json/pages.json'
     import general from '~/static/json/general.json'
     import { mapState } from 'vuex'
-    import wp from '~/lib/wp'
-  
+
     import SiteHeader from '~/components/Header'
     import EndorseForm from '~/components/EndorseForm'
     import SubNav from '~/components/Subnav'
@@ -109,17 +98,14 @@
         async asyncData({
             store, params, route
         }) {
-            // params.slug = params.slug == undefined ? 'home' : params.slug
-            function new_slug(page) {
-                return page.slug == params.slug;
-            }
-            var filtered = pages.filter(new_slug);
-            
+            const response = await fetch('/.netlify/functions/count_endorsements')
             return {
-                page: filtered[0],
+                num_endorsements: parseInt(await response.text()) || '',
+                page: pages.filter(page => page.slug == params.slug)[0],
             }
         },
         fetch ({ store, params }) {
+
             return;
             // const existing = store.state.endorsement_list
             // if (existing && existing.length > 0) {

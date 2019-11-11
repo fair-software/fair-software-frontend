@@ -73,7 +73,7 @@
                             s-0.2,6.3-0.2,6.3"/>
                     </svg>
                     <p>
-                        <span>{{ endorsementAmount }}</span>
+                        <span>{{ num_endorsements }}</span>
                     </p>
                 </div>
             </div>
@@ -85,7 +85,6 @@
 <script> 
     import Tweenlite from 'gsap'
     import { mapActions } from 'vuex'
-    import wp from '~/lib/wp'
     import axios from 'axios'
     export default {
         data () {
@@ -97,7 +96,7 @@
             }
         },
         props: {
-            endorsements: { type: Array }
+            num_endorsements: { type: [String, Number] }
         },
         watch: {
             'fields.firstname': function(val, oldVal) {
@@ -137,19 +136,14 @@
                     'lastname': this.fields.lastname,
                     'email': this.fields.email
                 };
-                const formData = new FormData();
-                for ( let key in toPost ) {
-                    formData.append(key, toPost[key]);
-                }
-                axios({
-                    url: window.location.origin + '/endorse',
-                    method: 'POST',
-                    data: formData,
-                    headers: {
-                        'Content-Type': 'multipart/form-data'
-                    }
-                })
-                .then((response) => {
+                // const formData = new FormData();
+                // for ( let key in toPost ) {
+                //     formData.append(key, toPost[key]);
+                // }
+                axios.post(
+                    window.location.origin + '/.netlify/functions/submit_endorsement',
+                    toPost
+                ).then((response) => {
                     // console.log(response.data)
                     if (response.data.errors && Object.keys(response.data.errors).length !== 0) {
                         self.errors = response.data.errors
