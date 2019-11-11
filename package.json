@@ -5,6 +5,7 @@
   "author": "Sjoerd Oudman",
   "private": true,
   "scripts": {
+    "bootstrap": "netlify dev:exec node ./scripts/bootstrap_fauna_db.js",
     "test": "jest",
     "dev": "nuxt",
     "build": "nuxt build",
@@ -20,6 +21,7 @@
     "nuxt-buefy": "^0.3.2"
   },
   "devDependencies": {
+    "faunadb": "^2.9.3",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-core": "^6.26.3",
     "babel-jest": "^24.1.0",

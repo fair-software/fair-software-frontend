@@ -1,3 +1,8 @@
 node_modules
 .nuxt
 dist
+
+# Local Netlify folder
+.netlify
+
+.idea
