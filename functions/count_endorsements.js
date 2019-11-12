@@ -13,7 +13,7 @@ exports.handler = async (event, context) => {
         .then((response) => {
             return {
                 statusCode: 200,
-                body: JSON.stringify(response)
+                body: JSON.stringify(response),
                 headers: {
                   'Cache-Control': 'public, s-maxage=300',
                 },
