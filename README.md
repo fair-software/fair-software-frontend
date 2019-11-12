@@ -19,4 +19,19 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Deploy
+
+Create netlify account, hook up to Github repo/master branch
+
+Install netlify cli: `npm install -g netlify-cli`
+- `netlify login`
+- `netlify link`
+- `netlify addons:create fauna`
+- `netlify addons:auth fauna`
+Create the endorsements collection:
+- `npm run bootstrap`
+
+To deploy, either push to the master branch, or use:
+
+- `npm run generate && netlify deploy`
+
