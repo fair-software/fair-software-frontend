@@ -11,7 +11,7 @@
             },
             {
                 "title" : "About us",
-                "url" : "/colofon"
+                "url" : "/colophon"
             }
         ],
         "meta" : {
@@ -27,13 +27,13 @@
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>"
             }
         ],
         "links" : [
             {
                 "title" : "About us",
-                "url" : "/colofon"
+                "url" : "/colophon"
             }
         ],
         "meta" : {
@@ -43,14 +43,14 @@
         }
     },
     {
-        "title" : "Colofon",
+        "title" : "Colophon",
         "menu_title" : "About us",
-        "slug" : "colofon",
+        "slug" : "colophon",
         "animation" : "/json/animation-diamond2.json",
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+                "content" : "<p>This website is the initial product of a collaboration between the Netherlands eScience Center and DANS, but everybody is welcome to join the effort!</p><p>Have support these recommendations? Endorse them!</p><p>Do you have questions or suggestions? Contact us!</p>" 
             }
         ],
         "links" : [
@@ -72,7 +72,7 @@
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>"
             },
             {
                 "type" : "logo_grid",
