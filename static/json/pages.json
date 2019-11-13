@@ -27,7 +27,7 @@
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+                "content" : "<p>The <a href='https://www.nature.com/articles/sdata201618'>FAIR principles</a> are a concept which originated in data management. The acronym stands for Findable, Accessible, Interoperable and Reusable. They have served as a flagship for promoting good data management practices, but <a href='https://dx.doi.org/10.3233/DS-190026'>until recently</a> they were not directly applicable to software. We hope that the FAIR principles will have a positive effect in research software development.</p>" 
             }
         ],
         "links" : [
@@ -50,7 +50,7 @@
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>"
             }
         ],
         "links" : [
@@ -72,7 +72,7 @@
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>"
             },
             {
                 "type" : "logo_grid",
