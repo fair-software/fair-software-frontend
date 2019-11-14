@@ -1,12 +1,12 @@
 [
     {
-        "title" : "Five <strong><a href='/recommendations/repository'>recommendations</a></strong> for f.a.i.r. software",
+        "title" : "Five <strong><a href='/recommendations/repository'>recommendations</a></strong> for fair software",
         "menu_title" : "Five recommendations",
         "slug" : "home",
         "image" : "/img/fair_hand.svg",
         "links" : [
             {
-                "title" : "What's F.A.I.R",
+                "title" : "What's FAIR",
                 "url" : "/about"
             },
             {
@@ -15,19 +15,19 @@
             }
         ],
         "meta" : {
-            "ogTitle" : "F.A.I.R.",
+            "ogTitle" : "FAIR",
             "ogDescription" : "Five recommendations for FAIR software",
             "ogImage" : "/img/og.png"
         }
     },
     {
-        "title" : "What is F.A.I.R?",
-        "menu_title" : "What is F.A.I.R?",
+        "title" : "What is FAIR?",
+        "menu_title" : "What is FAIR?",
         "slug" : "about",
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>"
             }
         ],
         "links" : [
@@ -37,7 +37,7 @@
             }
         ],
         "meta" : {
-            "ogTitle" : "About F.A.I.R.",
+            "ogTitle" : "About FAIR",
             "ogDescription" : "Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat",
             "ogImage" : "/img/og.png"
         }
@@ -50,12 +50,12 @@
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>"
             }
         ],
         "links" : [
             {
-                "title" : "What is F.A.I.R?",
+                "title" : "What is FAIR?",
                 "url" : "/about"
             }
         ],
@@ -72,7 +72,7 @@
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>" 
+                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>"
             },
             {
                 "type" : "logo_grid",
