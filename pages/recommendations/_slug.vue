@@ -306,12 +306,20 @@
         var metaDescription = this.post.meta.ogDescription
         var ogImage = this.post.meta.ogImage
 
+        const baseURL = 'https://fair-software.nl/';
+
+        // menu_title is only in root pages (post?)
+        // otherwise it's a recommendation page
+        const url = (this.post && 'menu_title' in this.post)
+            ? baseURL + this.post.slug
+            : baseURL + 'recommendations/' + this.post.slug
+
         return {
             title: `FAIR | ` + this.post.meta.ogTitle,
             meta: [
             {
                 'property': 'og:url',
-                'content': 'http://baseUrl' + '/recommendations' + this.post.slug,
+                'content': url,
             },
                 {
                     'vmid': 'og:site_name',
@@ -346,7 +354,7 @@
             link: [
                 {
                     'rel': 'canonical',
-                    'href': 'http://baseUrl' + '/recommendations' + this.post.slug
+                    'href': url,
                 }
             ]
         }

@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -71,7 +71,6 @@ export default {
     '@nuxtjs/axios',
   ],
   axios: {
-    baseURL: 'http://cms.fairsoftware.silo:8888',
     proxyHeaders: false,
     credentials: false
   },

@@ -98,11 +98,14 @@
         async asyncData({
             store, params, route
         }) {
-            const response = await fetch('/.netlify/functions/count_endorsements')
-            return {
-                num_endorsements: parseInt(await response.text()) || '',
+            const data = {
                 page: pages.filter(page => page.slug == params.slug)[0],
             }
+            if (!process.env.VUE_ENV === 'server') {
+                const response = await fetch('/.netlify/functions/count_endorsements')
+                data['num_endorsements'] = parseInt(await response.text()) || ''
+            }
+            return data
         },
         fetch ({ store, params }) {
 
@@ -178,13 +181,20 @@
         head() {
             var metaDescription = this.page.meta.ogDescription
             var ogImage = this.page.meta.ogImage
+            const baseURL = 'https://fair-software.nl/';
+
+            // menu_title is only in root pages
+            // otherwise it's a recommendation page
+            const url = (this.page && 'menu_title' in this.page)
+                ? baseURL + this.page.slug
+                : baseURL + 'recommendations/' + this.page.slug
 
             return {
                 title: `FAIR | ` + this.page.meta.ogTitle,
                 meta: [
                 {
                     'property': 'og:url',
-                    'content': 'http://baseUrl' + '/recommendations' + this.page.slug,
+                    'content': url,
                 },
                     {
                         'vmid': 'og:site_name',
@@ -219,7 +229,7 @@
                 link: [
                     {
                         'rel': 'canonical',
-                        'href': 'http://baseUrl' + '/recommendations' + this.page.slug
+                        'href': url
                     }
                 ]
             }
