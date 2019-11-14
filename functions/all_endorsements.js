@@ -14,7 +14,7 @@ exports.handler = async (event, context) => {
         const detailsResult = await client.query(detailsQuery);
         return {
             statusCode: 200,
-            body: JSON.stringify(detailsResult.map(r => r.data)),
+            body: JSON.stringify(detailsResult),
         }
     } catch(e) {
         return {
