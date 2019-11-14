@@ -98,11 +98,14 @@
         async asyncData({
             store, params, route
         }) {
-            const response = await fetch('/.netlify/functions/count_endorsements')
-            return {
-                num_endorsements: parseInt(await response.text()) || '',
+            const data = {
                 page: pages.filter(page => page.slug == params.slug)[0],
             }
+            if (!process.env.VUE_ENV === 'server') {
+                const response = await fetch('/.netlify/functions/count_endorsements')
+                data['num_endorsements'] = parseInt(await response.text()) || ''
+            }
+            return data
         },
         fetch ({ store, params }) {
 
