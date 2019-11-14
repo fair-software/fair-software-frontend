@@ -71,7 +71,6 @@ export default {
     '@nuxtjs/axios',
   ],
   axios: {
-    baseURL: 'http://cms.fairsoftware.silo:8888',
     proxyHeaders: false,
     credentials: false
   },
