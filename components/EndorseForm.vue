@@ -22,7 +22,7 @@
                         s-0.2,6.3-0.2,6.3"/>
                 </svg>
             </div>
-            <form action='/endorse' ref="form" class="e-form" name="endorsement" netlify data-netlify="true" @submit.prevent="submit">
+            <form action='/endorse' ref="form" class="e-form" name="endorsement" @submit.prevent="submit">
                 <div class="close" @click="toggleForm()">
                     <div></div>
                     <div></div>
