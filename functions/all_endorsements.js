@@ -9,6 +9,9 @@ const client = new faunadb.Client({
 
 exports.handler = async (event, context) => {
     try {
+        if (event.queryStringParameters.password !== process.env.ENDORSEMENTS_PASSWORD) {
+            throw new Error("Wrong password")
+        }
         const result = await client.query(q.Paginate(q.Match(q.Index('all_endorsements'))));
         const detailsQuery = result.data.map(r => q.Get(r));
         const detailsResult = await client.query(detailsQuery);
