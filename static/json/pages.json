@@ -72,25 +72,20 @@
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat, vestibulum nisi id, viverra ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur pulvinar rhoncus tincidunt. Morbi in sollicitudin purus. Donec feugiat neque quis arcu lacinia, a ornare dui mattis.</p>"
+                "content" : "<p>You can endorse the recommendations by becoming an endorser. We will not display your name or your email.</p><p>If you would like your organisation to endorse these recommendations please contact us via email: <a href='mailto:info@eScienceCenter.nl'>info@eScienceCenter.nl</a>.</p>"
             },
             {
                 "type" : "logo_grid",
                 "items" : [
                     {
-                        "title" : "UVA",
-                        "link" : "https://www.uva.nl/",
-                        "image" : "/img/uva.jpg"
+                        "title" : "DANS",
+                        "link" : "https://dans.knaw.nl/",
+                        "image" : "/img/dans.jpg"
                     },
                     {
-                        "title" : "TU Delft",
-                        "link" : "https://www.tudelft.nl/",
-                        "image" : "/img/tudelft.jpg"
-                    },
-                    {
-                        "title" : "University of Cambridge",
-                        "link" : "https://www.cambridge.com/",
-                        "image" : "/img/cambridge.jpg"
+                        "title" : "Netherlands eScience Center",
+                        "link" : "https://www.esciencecenter.nl/",
+                        "image" : "/img/esciencecenter.jpg"
                     }
                 ]
             }
