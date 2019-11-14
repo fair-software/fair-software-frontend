@@ -38,7 +38,7 @@
         ],
         "meta" : {
             "ogTitle" : "About FAIR",
-            "ogDescription" : "Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat",
+            "ogDescription" : "Findable, Accessible, Interoperable and Reusable. The FAIR principles are a concept which originated in data management.",
             "ogImage" : "/img/og.png"
         }
     },
@@ -60,8 +60,8 @@
             }
         ],
         "meta" : {
-            "ogTitle" : "Colofon",
-            "ogDescription" : "Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat",
+            "ogTitle" : "Colophonon",
+            "ogDescription" : "This website is the initial product of a collaboration between the Netherlands eScience Center and DANS, but everybody is welcome to join the effort!",
             "ogImage" : "/img/og.png"
         }
     },
@@ -92,7 +92,7 @@
         ],
         "meta" : {
             "ogTitle" : "Endorsements",
-            "ogDescription" : "Vestibulum ut mi mauris. Cras tempor feugiat posuere. Maecenas at elit consequat",
+            "ogDescription" : "You can endorse the recommendations by becoming an endorser. If you would like your organisation to endorse these recommendations please contact us via email.",
             "ogImage" : "/img/og.png"
         }
     }
