@@ -101,8 +101,12 @@
             const data = {
                 page: pages.filter(page => page.slug == params.slug)[0],
             }
-            const response = await fetch('https://fair-software.nl/.netlify/functions/count_endorsements')
-            data['num_endorsements'] = parseInt(await response.text()) || ''
+            try {
+                const response = await fetch('https://fair-software.nl/.netlify/functions/count_endorsements')
+                data['num_endorsements'] = parseInt(await response.text()) || ''
+            } catch(e) {
+                data['num_endorsements'] = 0
+            }
             return data
         },
         fetch ({ store, params }) {
