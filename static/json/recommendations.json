@@ -194,6 +194,10 @@
                     {
                         "type" : "WYSIWYG",
                         "text" : "<ul><li><a href='https://zenodo.org'>Zenodo</a></li><li><a href='https://figshare.com'>FigShare</a></li><li><a href='https://softwareheritage.org'>Software Heritage Archive</a></li></ul>" 
+                    },
+                    {
+                        "type" : "WYSIWYG",
+                        "text" : "<p>Initialize your CITATION.cff files <a href='https://citation-file-format.github.io/cff-initializer-javascript/'>here</a>.</p>"
                     }
                 ]
             }
