@@ -189,7 +189,7 @@
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<p>Regarding archiving copies of your software, look for services that store their own copy of a snapshot of your software, such that whatever persistent identifier you get (<a href='https://en.wikipedia.org/wiki/Persistent_identifier' target='_blank'>DOI, URN, ARK</a>,  etc) points to a specific version of the software, and will continue to resolve to exactly that version for the foreseeable future. Ideally, storing snapshots of your code should be as easy as possible: either at the push of a button, or automatically, for example each time you make a new release of your software.</p>" 
+                        "text" : "<p>Regarding archiving copies of your software, look for services that store their own copy of a snapshot of your software, such that whatever persistent identifier you get (<a href='https://en.wikipedia.org/wiki/Persistent_identifier' target='_blank'>DOI, URN, ARK</a>,  etc) points to a specific version of the software, and will continue to resolve to exactly that version for the foreseeable future. Ideally, storing snapshots of your code should be as easy as possible: either at the push of a button, or automatically, for example <a href='https://guides.github.com/activities/citable-code/'>each time you make a new release of your software</a>.</p>"
                     },
                     {
                         "type" : "WYSIWYG",
