@@ -86,6 +86,11 @@
                         "title" : "Netherlands eScience Center",
                         "link" : "https://www.esciencecenter.nl/",
                         "image" : "/img/esciencecenter.jpg"
+                    },
+                    {
+                        "title" : "Koninklijke Bibliotheek",
+                        "link" : "https://www.kb.nl/",
+                        "image" : "/img/kb-logo.png"
                     }
                 ]
             }
