@@ -210,7 +210,7 @@
     },
     {
         "number" : 5,
-        "title" : "Use <strong>software</strong> quality <em>checklist</em>",
+        "title" : "Use a <strong>software</strong> quality <em>checklist</em>",
         "slug" : "checklist",
         "hero" : "https://player.vimeo.com/external/353969888.sd.mp4?s=055fd9d19718f1031b99a34af15f182c857dbfe6&profile_id=165",
         "subchapters" : [
@@ -260,7 +260,7 @@
         ],
         "meta" : {
             "ogImage" : "/img/og.png",
-            "ogTitle" : "Use software quality checklist",
+            "ogTitle" : "Use a software quality checklist",
             "ogDescription" : "Checklists help you write good quality software. What exactly constitutes 'good quality' depends on the specific application of the software"
         }
     }
