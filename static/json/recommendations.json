@@ -185,19 +185,19 @@
                     },
                     {
                         "type" : "WYSIWYG",
+                        "text" : "<p>Initialize your CITATION.cff files <a href='https://citation-file-format.github.io/cff-initializer-javascript/'>here</a>.</p>"
+                    },
+                    {
+                        "type" : "WYSIWYG",
                         "text" : "<p>Regarding archiving copies of your software, look for services that store their own copy of a snapshot of your software, such that whatever persistent identifier you get (<a href='https://en.wikipedia.org/wiki/Persistent_identifier' target='_blank'>DOI, URN, ARK</a>,  etc) points to a specific version of the software, and will continue to resolve to exactly that version for the foreseeable future. Ideally, storing snapshots of your code should be as easy as possible: either at the push of a button, or automatically, for example each time you make a new release of your software.</p>" 
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<p>Some archiving services that meet these requirements are:</p>" 
+                        "text" : "<p>Some archiving services that meet these requirements are:</p>"
                     },
                     {
                         "type" : "WYSIWYG",
                         "text" : "<ul><li><a href='https://zenodo.org'>Zenodo</a></li><li><a href='https://figshare.com'>FigShare</a></li><li><a href='https://softwareheritage.org'>Software Heritage Archive</a></li></ul>" 
-                    },
-                    {
-                        "type" : "WYSIWYG",
-                        "text" : "<p>Initialize your CITATION.cff files <a href='https://citation-file-format.github.io/cff-initializer-javascript/'>here</a>.</p>"
                     }
                 ]
             }
