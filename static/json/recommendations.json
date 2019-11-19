@@ -130,7 +130,7 @@
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<ul><li>How much traffic does the community registry get?</li><li>Is the community registry targeting the audience you are trying to reach?</li><li>What metadata does the community registry offer? This is sometimes described in the documentation of the registry, but you can also see for yourself by installing a tool like the <a target='_blank' href='http://osds.openlinksw.com/'>OpenLink Structured Data Sniffer</a>. Alternatively, some search engines have tooling like the <a target='_blank' href='https://search.google.com/test/rich-results'>Google Search Console</a> to provide insight into how they perceive a given website.</li></ul>" 
+                        "text" : "<ul><li>How much traffic does the community registry get?</li><li>Is the community registry targeting the audience you are trying to reach?</li><li>What metadata does the community registry offer? This is sometimes described in the documentation of the registry, but you can also see for yourself by installing a tool like the <a target='_blank' href='http://osds.openlinksw.com/'>OpenLink Structured Data Sniffer</a>. Alternatively, some search engines have tooling like the <a target='_blank' href='https://search.google.com/structured-data/testing-tool'>Structured Data Testing Tool</a> to provide insight into how they perceive a given website.</li></ul>"
                     },
                     {
                         "type" : "WYSIWYG",
