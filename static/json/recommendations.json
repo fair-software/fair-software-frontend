@@ -19,7 +19,7 @@
                     },
                     {
                         "type" : "WYSIWYG",
-                        "title": "Why version control?",
+                        "title": "Why version control",
                         "text" : "<p>Using a version control system allows you to easily track changes in your software, both your own changes as well as those made by collaborators. There are many flavors of version control systems, ranging from older systems such as CVS and Subversion to more modern ones such as Git, Mercurial, and Bazaar. By configuring your version control system to use GitHub, GitLab or Bitbucket, you’ll even have backups of every version of the software you ever made. Additionally, those platforms offer collaboration tools such as an issue tracker and project management tools, and you’ll be able to use third-party services such as code quality checkers, correctness checkers, and a lot more.</p>" 
                     }
                 ]
@@ -82,11 +82,11 @@
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<p>Some of our favorite licenses are the Apache-2.0 and MIT licenses. These permissive licenses have very few restrictions, allowing others to easily reuse your work. We recommend you use choosealicense.com to find out which license is best for your purposes. If you just want to check what is and what is not allowed under a given license, visit <a href='https://TLDRLegal.com' target='_blank'>TLDRLegal.com</a> to find out.</p>" 
+                        "text" : "<p>Some of our favorite licenses are the Apache-2.0 and MIT licenses. These permissive licenses have very few restrictions, allowing others to easily reuse your work. We recommend you use choosealicense.com to find out which license is best for your purposes. If you just want to check what is and what is not allowed under a given license, visit tldrlegal.com to find out.</p>"
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<ul><li><a target='_blank' href='https://choosealicense.com'>choosealicense.com</a></li><li><a target='_blank' href='https://tldrlegal.com'>tldrlegal.com</a></li><li><a href='https://help.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository' target='_blank'>How to add a license to your repository</a></li></ul>" 
+                        "text" : "<ul><li><a target='_blank' href='https://choosealicense.com'>choosealicense.com</a></li><li><a target='_blank' href='https://tldrlegal.com'>tldrlegal.com</a></li><li><a href='https://help.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository' target='_blank'>How to add a license to your GitHub repository</a></li></ul>"
                     }
                 ]
             }
@@ -130,7 +130,7 @@
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<ul><li>How much traffic does the community registry get?</li><li>Is the community registry targeting the audience you are trying to reach?</li><li>What metadata does the community registry offer? This is sometimes described in the documentation of the registry, but you can also see for yourself by installing a tool like the <a target='_blank' href='http://osds.openlinksw.com/'>OpenLink Structured Data Sniffer</a>. Alternatively, some search engines have tooling like the <a target='_blank' href='https://search.google.com/test/rich-results'>Google Search Console</a> to provide insight into how they perceive a given website.</li></ul>" 
+                        "text" : "<ul><li>How much traffic does the community registry get?</li><li>Is the community registry targeting the audience you are trying to reach?</li><li>What metadata does the community registry offer? This is sometimes described in the documentation of the registry, but you can also see for yourself by installing a tool like the <a target='_blank' href='http://osds.openlinksw.com/'>OpenLink Structured Data Sniffer</a>. Alternatively, some search engines have tooling like the <a target='_blank' href='https://search.google.com/structured-data/testing-tool'>Structured Data Testing Tool</a> to provide insight into how they perceive a given website.</li></ul>"
                     },
                     {
                         "type" : "WYSIWYG",
@@ -138,7 +138,7 @@
                     },
                     {
                         "type" : "button",
-                        "text" : "View all awesome research software registries",
+                        "text" : "View all research software registries",
                         "link" : "https://github.com/NLeSC/awesome-research-software-registries",
                         "icon" : "https://camo.githubusercontent.com/1997c7e760b163a61aba3a2c98f21be8c524be29/68747470733a2f2f617765736f6d652e72652f62616467652e737667"
                     }
@@ -185,15 +185,19 @@
                     },
                     {
                         "type" : "WYSIWYG",
+                        "text" : "<p>Initialize your CITATION.cff files <a href='https://citation-file-format.github.io/cff-initializer-javascript/'>here</a>.</p>"
+                    },
+                    {
+                        "type" : "WYSIWYG",
                         "text" : "<p>Regarding archiving copies of your software, look for services that store their own copy of a snapshot of your software, such that whatever persistent identifier you get (<a href='https://en.wikipedia.org/wiki/Persistent_identifier' target='_blank'>DOI, URN, ARK</a>,  etc) points to a specific version of the software, and will continue to resolve to exactly that version for the foreseeable future. Ideally, storing snapshots of your code should be as easy as possible: either at the push of a button, or automatically, for example each time you make a new release of your software.</p>" 
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<p>Some archiving services that meet these requirements are:</p>" 
+                        "text" : "<p>Some archiving services that meet these requirements are:</p>"
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<ul><li>Zenodo</li><li>FigShare</li><li>Software Heritage Archive</li></ul>" 
+                        "text" : "<ul><li><a href='https://zenodo.org'>Zenodo</a></li><li><a href='https://figshare.com'>FigShare</a></li><li><a href='https://softwareheritage.org'>Software Heritage Archive</a></li></ul>" 
                     }
                 ]
             }
@@ -206,7 +210,7 @@
     },
     {
         "number" : 5,
-        "title" : "Use <strong>software</strong> quality <em>checklist</em>",
+        "title" : "Use a <strong>software</strong> quality <em>checklist</em>",
         "slug" : "checklist",
         "hero" : "https://player.vimeo.com/external/353969888.sd.mp4?s=055fd9d19718f1031b99a34af15f182c857dbfe6&profile_id=165",
         "subchapters" : [
@@ -249,14 +253,14 @@
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<ul><li><a target='_blank' href='https://coreinfrastructure.org'>Core Infrastructures Initiative</a> (online, interactive)</li><li>Deutsches Zentrum für Luft- und Raumfahrt (DLR) <a target='_blank' href='https://rse.dlr.de/download/checklist_applicationclass_1-markdown_v1.0.md'>Class 1</a>, <a target='_blank' href='https://rse.dlr.de/download/checklist_applicationclass_2-markdown_v1.0.md'>Class 2</a>, <a target='_blank' href='https://rse.dlr.de/download/checklist_applicationclass_3-markdown_v1.0.md'>Class 3</a> (MarkDown)</li><li>Software Sustainability Institute’s software evaluation checklist (<a href='https://help.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository' target='_blank'>Google form</a>)</li><li>CLARIAH checklist (<a href='https://github.com/CLARIAH/software-quality-guidelines/blob/v1.0/softwareguidelines.pdf' target='_blank'>PDF page 38-42</a>)</li><li>EURISE (<a href='https://github.com/eurise-network/technical-reference/blob/v0.1/quality/software-checklist.rst' target='_blank'>(MarkDown)</a></li></ul>" 
+                        "text" : "<ul><li><a target='_blank' href='https://bestpractices.coreinfrastructure.org/en'>Core Infrastructures Initiative</a> (online, interactive)</li><li>Deutsches Zentrum für Luft- und Raumfahrt <a target='_blank' href='https://rse.dlr.de/download/checklist_applicationclass_1-markdown_v1.0.md'>Class 1</a>, <a target='_blank' href='https://rse.dlr.de/download/checklist_applicationclass_2-markdown_v1.0.md'>Class 2</a>, <a target='_blank' href='https://rse.dlr.de/download/checklist_applicationclass_3-markdown_v1.0.md'>Class 3</a> (MarkDown)</li><li>Software Sustainability Institute’s software evaluation checklist (<a href='https://docs.google.com/forms/d/e/1FAIpQLSf0ccsVdN-nXJCHLluJ-hANZlp8rDKgprJa0oTYiLZSDxh3DA/viewform' target='_blank'>Google form</a>)</li><li>CLARIAH checklist (<a href='https://github.com/CLARIAH/software-quality-guidelines/blob/v1.0/softwareguidelines.pdf' target='_blank'>PDF page 38-42</a>)</li><li>EURISE (<a href='https://github.com/eurise-network/technical-reference/blob/v0.1/quality/software-checklist.rst' target='_blank'>MarkDown</a>)</li></ul>"
                     }
                 ]
             }
         ],
         "meta" : {
             "ogImage" : "/img/og.png",
-            "ogTitle" : "Use software quality checklist",
+            "ogTitle" : "Use a software quality checklist",
             "ogDescription" : "Checklists help you write good quality software. What exactly constitutes 'good quality' depends on the specific application of the software"
         }
     }
