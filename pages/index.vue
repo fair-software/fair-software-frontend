@@ -154,6 +154,10 @@
                 {
                     'name': 'twitter:description',
                     'content': metaDescription
+                },
+                {
+                    'name': 'google-site-verification',
+                    'content': 'J9qBjoHGveNTPMumRFNa2p1_nsWS42c52Zjyub4YfoA'
                 }
             ],
             link: [
