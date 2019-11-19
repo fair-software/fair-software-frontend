@@ -63,7 +63,7 @@ ul, li {
 }
 
 
-a {
+a, a:visited {
     color: $primarycolor;
     transition: .3s ease-in-out;
 }
