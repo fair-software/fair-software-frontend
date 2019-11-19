@@ -82,7 +82,7 @@
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<p>Some of our favorite licenses are the Apache-2.0 and MIT licenses. These permissive licenses have very few restrictions, allowing others to easily reuse your work. We recommend you use choosealicense.com to find out which license is best for your purposes. If you just want to check what is and what is not allowed under a given license, visit <a href='https://TLDRLegal.com' target='_blank'>TLDRLegal.com</a> to find out.</p>" 
+                        "text" : "<p>Some of our favorite licenses are the Apache-2.0 and MIT licenses. These permissive licenses have very few restrictions, allowing others to easily reuse your work. We recommend you use choosealicense.com to find out which license is best for your purposes. If you just want to check what is and what is not allowed under a given license, visit tldrlegal.com to find out.</p>"
                     },
                     {
                         "type" : "WYSIWYG",
