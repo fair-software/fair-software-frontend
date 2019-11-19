@@ -19,7 +19,7 @@
                     },
                     {
                         "type" : "WYSIWYG",
-                        "title": "Why version control?",
+                        "title": "Why version control",
                         "text" : "<p>Using a version control system allows you to easily track changes in your software, both your own changes as well as those made by collaborators. There are many flavors of version control systems, ranging from older systems such as CVS and Subversion to more modern ones such as Git, Mercurial, and Bazaar. By configuring your version control system to use GitHub, GitLab or Bitbucket, you’ll even have backups of every version of the software you ever made. Additionally, those platforms offer collaboration tools such as an issue tracker and project management tools, and you’ll be able to use third-party services such as code quality checkers, correctness checkers, and a lot more.</p>" 
                     }
                 ]
