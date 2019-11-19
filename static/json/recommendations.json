@@ -86,7 +86,7 @@
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<ul><li><a target='_blank' href='https://choosealicense.com'>choosealicense.com</a></li><li><a target='_blank' href='https://tldrlegal.com'>tldrlegal.com</a></li><li><a href='https://help.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository' target='_blank'>How to add a license to your repository</a></li></ul>" 
+                        "text" : "<ul><li><a target='_blank' href='https://choosealicense.com'>choosealicense.com</a></li><li><a target='_blank' href='https://tldrlegal.com'>tldrlegal.com</a></li><li><a href='https://help.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository' target='_blank'>How to add a license to your GitHub repository</a></li></ul>"
                     }
                 ]
             }
