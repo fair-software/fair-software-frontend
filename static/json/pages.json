@@ -50,7 +50,7 @@
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>This website is the initial product of a collaboration between the Netherlands eScience Center and DANS, but everybody is welcome to join the effort!</p><p>Have support these recommendations? Endorse them!</p><p>Do you have questions or suggestions? Contact us!</p>"
+                "content" : "<p>This website is the result of a collaboration between the Netherlands eScience Center and DANS, but everybody is welcome to join the effort!</p><p>Do you support these recommendations? Endorse them!</p><p>Do you have questions or suggestions? Contact us!</p>"
             }
         ],
         "links" : [
@@ -60,8 +60,8 @@
             }
         ],
         "meta" : {
-            "ogTitle" : "Colophonon",
-            "ogDescription" : "This website is the initial product of a collaboration between the Netherlands eScience Center and DANS, but everybody is welcome to join the effort!",
+            "ogTitle" : "Colophon",
+            "ogDescription" : "This website is the result of a collaboration between the Netherlands eScience Center and DANS, but everybody is welcome to join the effort!",
             "ogImage" : "/img/og.png"
         }
     },
