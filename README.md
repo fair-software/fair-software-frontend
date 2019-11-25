@@ -1,6 +1,6 @@
-# fair-software
+# fair-software.nl
 
-> Recommendations for research software
+Source for the website at http://fair-software.nl . This website contains recommendations for research software
 
 ## Build Setup
 
