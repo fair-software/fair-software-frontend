@@ -38,7 +38,7 @@
                     },
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<ul><li><a target='_blank' href='https://swcarpentry.github.io'>How to get started with git</a></li><li><a target='_blank' href='https://software.ac.uk/choosing-repository-your-software-project'>Choosing a platform for your software project</a></li><li><a href='https://GitHub.com' target='_blank'>GitHub.com</li><li><a href='https://BitBucket.org' target='_blank'>BitBucket.org</li><li><a href='https://GitLab.com' target='_blank'>GitLab.com</li></ul>" 
+                        "text" : "<ul><li><a target='_blank' href='https://swcarpentry.github.io/git-novice/'>How to get started with git</a></li><li><a target='_blank' href='https://software.ac.uk/choosing-repository-your-software-project'>Choosing a platform for your software project</a></li><li><a href='https://GitHub.com' target='_blank'>GitHub.com</li><li><a href='https://BitBucket.org' target='_blank'>BitBucket.org</li><li><a href='https://GitLab.com' target='_blank'>GitLab.com</li></ul>" 
                     }
                 ]
             }
