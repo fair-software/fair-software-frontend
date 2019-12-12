@@ -100,13 +100,7 @@
         }) {
             const data = {
                 page: pages.filter(page => page.slug == params.slug)[0],
-            }
-            try {
-                const response = await fetch('https://fair-software.nl/.netlify/functions/count_endorsements')
-                data['num_endorsements'] = parseInt(await response.text()) || ''
-            } catch(e) {
-                data['num_endorsements'] = 0
-            }
+            };
             return data
         },
         fetch ({ store, params }) {
@@ -123,6 +117,14 @@
         },
         computed: mapState(['endorsement_list']),
         methods: {
+            async updateEndorsementsCount() {
+                try {
+                    const response = await fetch('https://fair-software.nl/.netlify/functions/count_endorsements')
+                    data['num_endorsements'] = parseInt(await response.text()) || ''
+                } catch(e) {
+                    data['num_endorsements'] = '?'
+                }
+            },
             checkforVideo(VideoElement) {
                 let self = this
                 //Every 500ms, check if the video element has loaded
@@ -174,6 +176,7 @@
                     path: this.page.animation  
                 })
             }
+            this.updateEndorsementsCount();
         },
         beforeDestroy() {
             this.$store.commit('toggleSubNav', false)
