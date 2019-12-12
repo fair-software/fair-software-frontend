@@ -93,6 +93,7 @@
             return {
                 pages : pages,
                 general : general,
+                num_endorsements: ''
             }
         },
         async asyncData({
