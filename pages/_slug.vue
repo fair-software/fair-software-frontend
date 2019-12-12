@@ -120,9 +120,9 @@
             async updateEndorsementsCount() {
                 try {
                     const response = await fetch('https://fair-software.nl/.netlify/functions/count_endorsements')
-                    data['num_endorsements'] = parseInt(await response.text()) || ''
+                    this.num_endorsements = parseInt(await response.text()) || ''
                 } catch(e) {
-                    data['num_endorsements'] = '?'
+                    this.num_endorsements = '?'
                 }
             },
             checkforVideo(VideoElement) {
