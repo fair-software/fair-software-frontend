@@ -30,7 +30,7 @@ The fair-software.nl team.
     return nmTransport.sendMail({
         from: '"Fair software" fair-software@esciencecenter.nl',
         to: eventData['email'],
-        subject: "test",
+        subject: "Thanks from fair-software.nl!",
         text: mailBody,
     });
 };
