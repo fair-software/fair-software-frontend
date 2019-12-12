@@ -21,10 +21,12 @@ const sendMail = eventData => {
 
     const mailBody = `Dear ${eventData['firstname']},
 
-Thank you for your endorsement!
-Sincerely,
+Thank you for endorsing the recommendations from fair-software.nl! Please notice that we will not display your name or your email without your permission.
 
-The fair-software.nl team.        
+These recommendations will become more powerful only when they become more broadly adopted. We encourage you to share these recommendations with your colleagues and urge them to follow and endorse the recommendations.
+
+Sincerely,
+The fair-software.nl team        
 `;
 
     return nmTransport.sendMail({
