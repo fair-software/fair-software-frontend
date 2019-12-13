@@ -70,7 +70,7 @@ const sendSlackMessage  = eventData => {
     const SLACK_WEBHOOK_URL = process.env.SLACK_WEBHOOK_URL;
 
     const body = JSON.stringify({
-        text: 'Yay! Another endorsement: ' + JSON.stringify(eventData)
+        text: 'Yay! Another endorsement!'
     });
 
     return fetch(SLACK_WEBHOOK_URL, {
@@ -107,4 +107,3 @@ exports.handler = async (event, context) => {
         }
     }
 };
-
