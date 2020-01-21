@@ -1,5 +1,9 @@
 # fair-software.nl
 
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+
+
 Source for the website at http://fair-software.nl . This website contains recommendations for research software
 
 ## Build Setup
@@ -34,4 +38,3 @@ Create the endorsements collection:
 To deploy, either push to the master branch, or use:
 
 - `npm run generate && netlify deploy`
-
