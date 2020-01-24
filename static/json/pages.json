@@ -97,6 +97,12 @@
                       "link" : "https://www.nwo.nl/",
                       "image" : "/img/NWO logo - RGB.jpg"
                     }
+                    ,
+                    {
+                      "title" : "Elixir",
+                      "link" : "https://elixir-europe.org/",
+                      "image" : "/img/ELIXIR logo_2013.png"
+                    }
                 ]
             }
         ],
