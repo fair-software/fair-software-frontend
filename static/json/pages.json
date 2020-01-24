@@ -96,6 +96,11 @@
                       "title" : "NWO",
                       "link" : "https://www.nwo.nl/",
                       "image" : "/img/NWO logo - RGB.jpg"
+                    },
+                    {
+                      "title" : "DTL",
+                      "link" : "https://www.dtls.nl/",
+                      "image" : "/img/DTL_full.jpg"
                     }
                 ]
             }
