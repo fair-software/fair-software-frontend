@@ -1,7 +1,7 @@
 {
     "contact" : {
         "title" : "Contact",
-        "text" : "Netherlands eScience Center<br><a href='tel:0031204604770'>+31 20 4604770</a><br><a href='mailto:fairsoftware@eScienceCenter.nl'>fairsoftware@eScienceCenter.nl</a><br><br>DANS<br><a href='tel:0031703494450'>+31 70 349 44 50</a><br><a href='mailto:info@dans.knaw.nl'>info@dans.knaw.nl</a>"
+        "text" : "Netherlands eScience Center<br><a href='tel:0031204604770'>+31 20 4604770</a><br><a href='mailto:fairsoftware@esciencecenter.nl'>fairsoftware@esciencecenter.nl</a><br><br>DANS<br><a href='tel:0031703494450'>+31 70 349 44 50</a><br><a href='mailto:info@dans.knaw.nl'>info@dans.knaw.nl</a>"
     },
     "social" : {
         "title" : "Share",
