@@ -4,7 +4,7 @@
             <div class="bg" @click="toggleForm()"></div>
             <div ref="notice"  class="notice">
                 <h2>Thank you!</h2>
-                <p>We are very pleased to have you on board, please tell the world anout this initiative</p>
+                <p>We are very pleased to have you on board, please tell the world about this initiative</p>
                 <svg class="thumb" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                     viewBox="0 0 297 377" enable-background="new 0 0 297 377" xml:space="preserve">
                     <path fill="none" stroke-width="15" stroke-linecap="round" stroke-miterlimit="10" d="M170.2,99.3
