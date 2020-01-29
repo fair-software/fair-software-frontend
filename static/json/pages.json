@@ -72,7 +72,7 @@
         "paragraphs" : [
             {
                 "type" : "WYSIWYG",
-                "content" : "<p>You can endorse the recommendations by becoming an endorser. We will not display your name or your email.</p><p>If you would like your organisation to endorse these recommendations please contact us via email: <a href='mailto:info@eScienceCenter.nl'>info@eScienceCenter.nl</a>.</p>"
+                "content" : "<p>You can endorse the recommendations by becoming an endorser. We will not display your name or your email.</p><p>If you would like your organisation to endorse these recommendations please contact us via email: <a href='mailto:fairsoftware@esciencecenter.nl'>fairsoftware@esciencecenter.nl</a>.</p>"
             },
             {
                 "type" : "logo_grid",
@@ -96,6 +96,11 @@
                       "title" : "NWO",
                       "link" : "https://www.nwo.nl/",
                       "image" : "/img/NWO logo - RGB.jpg"
+                    },
+                    {
+                      "title" : "DTL",
+                      "link" : "https://www.dtls.nl/",
+                      "image" : "/img/DTL_short.jpeg"
                     }
                     ,
                     {
