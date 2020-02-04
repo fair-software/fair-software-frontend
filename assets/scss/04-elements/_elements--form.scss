@@ -57,7 +57,7 @@
         border-style: none;
         border-bottom: 2px solid rgba(white, .6);
 
-        &:focus,  &.activated  {
+        &:not([type='checkbox']):focus,  &.activated  {
             outline: none;
 
             & + label {
@@ -101,6 +101,16 @@
             color: white;
         }
     }
+
+    button:disabled {
+        opacity: .2;
+        cursor: default;
+        &:hover {
+            background-color: white;
+            color: $dark;
+        }
+    }
+
 
 
     // validation

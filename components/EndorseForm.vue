@@ -43,12 +43,20 @@
                     <label for="email">{{ 'E-mail' }}<sup>*</sup></label>
                     <p class="warning" :class="[errors.email == undefined ? '' : 'show']"><span>{{ errors.email }}</span></p>
                 </div>
+                <span>
+                    By entering your name and email address, you enable the Netherlands eScience Center to use them
+                    according to the <a target="_blank" href="https://www.esciencecenter.nl/privacy-statement">privacy statement</a>.
+                    </span>
+                <div class="e-form__group">
+                    <input type="checkbox" name="agree" v-model="fields.agree" />
+                    <label for="agree">Agreed<sup>*</sup></label>
+                </div>
                 <div class="e-form__group secret">
                     <input type="text" name="lastname" v-model="fields.secret" @focus="activateInput($event)"/>
                     <label for="secret">{{ 'Secret' }}</label>
                 </div>
                 <div class="catch-click m-t-half-space">
-                    <button type="submit" class="btn">Endorse!</button>
+                    <button :disabled="!fields.agree" type="submit" class="btn">Endorse!</button>
                 </div>
             </form>
         </div>
@@ -92,6 +100,7 @@
                 formOpen: false,
                 fields: {},
                 errors: {},
+                agree: false,
                 endorsementAmount: 0
             }
         },
