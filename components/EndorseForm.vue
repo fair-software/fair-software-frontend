@@ -48,7 +48,7 @@
                     according to the <a target="_blank" href="https://www.esciencecenter.nl/privacy-statement">privacy statement</a>.
                     </span>
                 <div class="e-form__group">
-                    <input type="checkbox" name="agree" v-model="fields.agree" />
+                    <input type="checkbox" id="agree" name="agree" v-model="fields.agree" />
                     <label for="agree">Agreed<sup>*</sup></label>
                 </div>
                 <div class="e-form__group secret">
