@@ -101,12 +101,16 @@
                       "title" : "DTL",
                       "link" : "https://www.dtls.nl/",
                       "image" : "/img/DTL_short.jpeg"
-                    }
-                    ,
+                    },
                     {
                       "title" : "Elixir",
                       "link" : "https://elixir-europe.org/",
                       "image" : "/img/ELIXIR logo_2013.png"
+                    },
+                    {
+                      "title" : "SURF",
+                      "link" : "http://surf.nl/",
+                      "image" : "/img/SURF_fc.eps.png"
                     }
                 ]
             }
