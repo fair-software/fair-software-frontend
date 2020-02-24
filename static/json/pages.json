@@ -101,8 +101,7 @@
                       "title" : "DTL",
                       "link" : "https://www.dtls.nl/",
                       "image" : "/img/DTL_short.jpeg"
-                    }
-                    ,
+                    },
                     {
                       "title" : "Elixir",
                       "link" : "https://elixir-europe.org/",
@@ -117,6 +116,11 @@
                       "title" : "Software Sustainability Institute",
                       "link" : "https://www.software.ac.uk/",
                       "image" : "/img/SSIFullColour.png"
+                    },
+                    {
+                      "title" : "SURF",
+                      "link" : "http://surf.nl/",
+                      "image" : "/img/SURF_fc.eps.png"
                     }
                 ]
             }
