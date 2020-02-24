@@ -112,6 +112,11 @@
                       "title" : "Institut Francais de Bioinformatique",
                       "link" : "https://www.france-bioinformatique.fr/",
                       "image" : "/img/logo-ifb_RVB_p.jpg"
+                    },
+                    {
+                      "title" : "Software Sustainability Institute",
+                      "link" : "https://www.software.ac.uk/",
+                      "image" : "/img/SSIFullColour.png"
                     }
                 ]
             }
