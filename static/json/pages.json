@@ -107,6 +107,11 @@
                       "title" : "Elixir",
                       "link" : "https://elixir-europe.org/",
                       "image" : "/img/ELIXIR logo_2013.png"
+                    },
+                    {
+                      "title" : "Software Sustainability Institute",
+                      "link" : "https://www.software.ac.uk/",
+                      "image" : "/img/SSIFullColour.png"
                     }
                 ]
             }
