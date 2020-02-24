@@ -107,6 +107,11 @@
                       "title" : "Elixir",
                       "link" : "https://elixir-europe.org/",
                       "image" : "/img/ELIXIR logo_2013.png"
+                    },
+                    {
+                      "title" : "Institut Francais de Bioinformatique",
+                      "link" : "https://www.france-bioinformatique.fr/",
+                      "image" : "/img/logo-ifb_RVB_p.jpg"
                     }
                 ]
             }
