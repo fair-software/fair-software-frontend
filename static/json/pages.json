@@ -121,6 +121,11 @@
                       "title" : "SURF",
                       "link" : "http://surf.nl/",
                       "image" : "/img/SURF_fc.eps.png"
+                    },
+                    {
+                      "title" : "CWI",
+                      "link" : "http://CWI.nl/",
+                      "image" : "/img/logo-cwi.png"
                     }
                 ]
             }
