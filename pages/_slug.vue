@@ -17,12 +17,11 @@
                     <h1 class="text--xl" v-html="page.title"></h1>
                     <div class="o-grid m-t-space">
                         <div class="o-grid__row">
-                            <div class="all-2_3 phablet-1_1 m-b-space">
+                            <div class="all-1_1 phablet-1_1 m-b-space">
                                 <div class="o-grid__col">
                                     <section v-for="(item, index) in page.paragraphs" :key="index">
                                         <div v-if="item.type == 'WYSIWYG'" v-html="item.content"></div>
                                         <div v-if="item.type == 'logo_grid'" class="m-t-space">
-                                            <h2>{{ 'Endorsing organizations' }}</h2>
                                             <div class="o-grid o-grid--gap-small m-t-half-space">
                                                 <div class="o-grid__row">
                                                     <div class="all-1_3" v-for="(logo, index) in item.items" :key="index">
@@ -47,19 +46,6 @@
                                     </section>
                                 </div>
                             </div>
-                            <div class="all-1_3 phablet-1_1 m-b-double-space">
-                                <div v-if="page.slug !== 'endorse'" class="o-grid__col">
-                                    <div class="tools">
-                                        <div class="tools__contact">
-                                            <h3>{{ general.contact.title }}</h3>
-                                            <p v-html="general.contact.text"></p>
-                                        </div>
-                                    </div>
-                                </div> 
-                                <div v-else class="o-grid__col">
-                                    <endorse-form :num_endorsements="num_endorsements"></endorse-form>
-                                </div>   
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -77,7 +63,6 @@
     import { mapState } from 'vuex'
 
     import SiteHeader from '~/components/Header'
-    import EndorseForm from '~/components/EndorseForm'
     import SubNav from '~/components/Subnav'
     import PageNav from '~/components/PageNav'
   
@@ -85,7 +70,6 @@
         name: 'Page',
         components: {
             SiteHeader,
-            EndorseForm,
             SubNav,
             PageNav
         },
@@ -93,7 +77,6 @@
             return {
                 pages : pages,
                 general : general,
-                num_endorsements: ''
             }
         },
         async asyncData({
@@ -104,28 +87,8 @@
             };
             return data
         },
-        fetch ({ store, params }) {
-
-            return;
-            // const existing = store.state.endorsement_list
-            // if (existing && existing.length > 0) {
-            //     return
-            // }
-            // return wp.endorsements( null )
-            //     .then(json => {
-            //         store.commit('endorsements_update', json.endorsements)
-            //     })
-        },
         computed: mapState(['endorsement_list']),
         methods: {
-            async updateEndorsementsCount() {
-                try {
-                    const response = await fetch('https://fair-software.nl/.netlify/functions/count_endorsements')
-                    this.num_endorsements = parseInt(await response.text()) || ''
-                } catch(e) {
-                    this.num_endorsements = '?'
-                }
-            },
             checkforVideo(VideoElement) {
                 let self = this
                 //Every 500ms, check if the video element has loaded
@@ -174,10 +137,9 @@
                     renderer: 'svg',
                     loop: true,
                     autoplay: true,
-                    path: this.page.animation  
+                    path: this.page.animation
                 })
             }
-            this.updateEndorsementsCount();
         },
         beforeDestroy() {
             this.$store.commit('toggleSubNav', false)
