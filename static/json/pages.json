@@ -126,6 +126,11 @@
                       "title" : "CWI",
                       "link" : "http://CWI.nl/",
                       "image" : "/img/logo-cwi.png"
+                    },
+                    {
+                      "title" : "BioExcel",
+                      "link" : "http://www.bioexcel.eu/",
+                      "image" : "/static/img/Bioexcel_logo_subheading_updated_RGB.png"
                     }
                 ]
             }
