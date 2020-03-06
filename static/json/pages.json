@@ -131,6 +131,11 @@
                       "title" : "Code Refinery",
                       "link" : "https://coderefinery.org",
                       "image" : "/img/coderefinery.png"
+                    },
+                    {
+                      "title" : "VERSEN",
+                      "link" : "https://www.versen.nl/",
+                      "image" : "/img/versen-logo-2020.png"
                     }
                 ]
             }
