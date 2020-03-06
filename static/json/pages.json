@@ -126,6 +126,11 @@
                       "title" : "CWI",
                       "link" : "http://CWI.nl/",
                       "image" : "/img/logo-cwi.png"
+                    },
+                    {
+                      "title" : "VERSEN",
+                      "link" : "https://www.versen.nl/",
+                      "image" : "/img/versen-logo-2020.png"
                     }
                 ]
             }
