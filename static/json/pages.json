@@ -132,7 +132,7 @@
                       "link" : "http://www.bioexcel.eu/",
                       "image" : "/img/Bioexcel_logo_subheading_updated_RGB.png"
                     },
-                    }
+                    {
                       "title" : "Code Refinery",
                       "link" : "https://coderefinery.org",
                       "image" : "/img/coderefinery.png"
