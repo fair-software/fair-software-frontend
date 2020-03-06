@@ -126,6 +126,11 @@
                       "title" : "CWI",
                       "link" : "http://CWI.nl/",
                       "image" : "/img/logo-cwi.png"
+                    },
+                    {
+                      "title" : "Code Refinery",
+                      "link" : "https://coderefinery.org",
+                      "image" : "/img/logo-cwi.png"
                     }
                 ]
             }
