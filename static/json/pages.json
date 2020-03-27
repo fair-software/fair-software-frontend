@@ -141,6 +141,11 @@
                       "title" : "VERSEN",
                       "link" : "https://www.versen.nl/",
                       "image" : "/img/versen-logo-2020.png"
+                    },
+                    {
+                      "title" : "Society of RSE",
+                      "link" : "https://society-rse.org/",
+                      "image" : "/img/Soc_RSE_master_logo.png"
                     }
                 ]
             }
