@@ -146,6 +146,11 @@
                       "title" : "Society of RSE",
                       "link" : "https://society-rse.org/",
                       "image" : "/img/Soc_RSE_master_logo.png"
+                    },
+                    {
+                      "title" : "4TU.ResearchData",
+                      "link" : "https://researchdata.4tu.nl/en/",
+                      "image" : "/img/4tu_logo_header.svg"
                     }
                 ]
             }
