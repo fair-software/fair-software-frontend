@@ -80,7 +80,7 @@
                     {
                         "title" : "DANS",
                         "link" : "https://dans.knaw.nl/",
-                        "image" : "/img/dans.jpg"
+                        "image" : "/img/dans-Logo1_0.png"
                     },
                     {
                         "title" : "Netherlands eScience Center",
@@ -140,7 +140,7 @@
                     {
                       "title" : "VERSEN",
                       "link" : "https://www.versen.nl/",
-                      "image" : "/img/versen-logo-2020.png"
+                      "image" : "/img/versen-logo-2020.svg"
                     },
                     {
                       "title" : "Society of RSE",
