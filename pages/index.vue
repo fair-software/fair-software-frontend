@@ -129,12 +129,12 @@
                 {
                     'vmid': 'og:site_name',
                     'property': 'og:site_name',
-                    'content': 'FAIR Reasearch Software',
+                    'content': 'FAIR Research Software',
                 },
                 {
                     'vmid': 'og:title',
                     'property': 'og:title',
-                    'content': 'FAIR Reasearch Software',
+                    'content': 'FAIR Research Software',
                 },
                 {
                     'vmid': 'og:image',
@@ -148,8 +148,8 @@
                 },
                 {
                     'name': 'twitter:title',
-                    'content':  'FAIR Reasearch Software',
-                    'template': 'Silo - %s'
+                    'content':  'FAIR Research Software',
+                    'template': '%s'
                 },
                 {
                     'name': 'twitter:description',
