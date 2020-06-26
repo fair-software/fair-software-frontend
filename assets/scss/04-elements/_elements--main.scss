@@ -2,3 +2,9 @@
     display: block;
     padding-top: 4.5rem;
 }
+
+/* Only for IE11 */
+_:-ms-fullscreen, :root .e-main {
+    overflow-y: auto;
+    -ms-overflow-style: none;
+}
