@@ -120,7 +120,7 @@
             const arrows = () => this.arrowFunctions();
 
             window.addEventListener('keydown', arrows);
-            
+
             // document.onkeydown = function(evt) {
             //     evt = evt || window.event;
             //     switch (evt.keyCode) {
@@ -198,7 +198,7 @@
                     height: 90%;
                 }
             }
-            
+
             .next, .next-inactive, .prev, .prev-inactive, .last {
                 .handle {
                     position: fixed;
@@ -223,7 +223,7 @@
                         svg {
                             transform: rotate(90deg) rotateY(180deg) translateY(0);
                             @include bp( max, $phablet ){
-                                transform: rotate(90deg) rotateY(180deg) translateY(1rem);
+                                transform: rotate(90deg) rotate(180deg) translateY(1rem);
                             }
                         }
                     }
@@ -243,10 +243,10 @@
                         fill: white;
                         width: 40px;
                         height: 40px;
-                        transform: rotateY(180deg);
+                        transform: rotate(180deg);
 
                         @include bp( max, $phablet ){
-                           stroke: white; 
+                           stroke: white;
                         }
                     }
 
@@ -284,12 +284,12 @@
                     height: 45px;
                 }
             }
-            
+
             .last,
             .next,
             .next-inactive {
                 right: 0;
-                
+
                 .handle {
                     right: 0;
                 }
@@ -300,7 +300,7 @@
             }
             .prev {
                 left: 0;
-                
+
                 .handle {
                     left: 0;
                 }
