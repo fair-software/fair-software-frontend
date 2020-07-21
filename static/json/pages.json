@@ -156,6 +156,11 @@
                       "title" : "CMBI, Radboud UMC",
                       "link" : "https://www.radboudumc.nl/en/research/departments/center-for-molecular-and-biomolecular-informatics",
                       "image" : "/img/Radboudumc_ENGELS_700px_RGB.png"
+                    },
+                    {
+                      "title" : "Luxembourg Centre for Systems Biomedicine",
+                      "link" : "https://wwwen.uni.lu/lcsb",
+                      "image" : "/img/LCSB_kurz_uni_extern_def.png"
                     }
                 ]
             }
