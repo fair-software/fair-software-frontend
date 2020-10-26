@@ -181,7 +181,7 @@
                 "paragraphs" : [
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<p>The <a href='https://codemeta.github.io' target='_blank'>CodeMeta</a> standard and the <a href='https://citation-file-format.github.io' target='_blank'>Citation File Format</a> were specifically designed to enable citation of software and will likely meet your needs. For either one, you write a plain text file with citation metadata, which you then distribute with your software.</p>" 
+                        "text" : "<p><a href='https://codemeta.github.io' target='_blank'>CodeMeta</a> and the <a href='https://citation-file-format.github.io' target='_blank'>Citation File Format</a> were specifically designed to enable citation of software and will likely meet your needs. For either one, you write a plain text file with citation metadata, which you then distribute with your software.</p>" 
                     },
                     {
                         "type" : "WYSIWYG",
