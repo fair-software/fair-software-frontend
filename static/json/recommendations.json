@@ -34,7 +34,7 @@
                 "paragraphs" : [
                     {
                         "type" : "WYSIWYG",
-                        "text" : "<p>Git is the most feature-rich, most modern and most popular version control system by a good margin, and we heartily recommend you use it for all you version control needs. To get the best out of Git, use it in combination with GitHub.com, Bitbucket.org, or GitLab.com.</p>"
+                        "text" : "<p>Git is the version control system which is most feature-rich, most modern and most popular by a good margin, and we heartily recommend you use it for all you version control needs. To get the best out of Git, use it in combination with GitHub.com, Bitbucket.org, or GitLab.com.</p>"
                     },
                     {
                         "type" : "WYSIWYG",
