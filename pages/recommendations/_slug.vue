@@ -50,7 +50,7 @@
                             </div>
                         </div>
                     </div>
-                </div>        
+                </div>
             </div>
         </div>
     </section>
@@ -63,7 +63,7 @@
   import PageNav from '~/components/PageNav'
   import Tweenlite from 'gsap'
   import recommendations from '~/static/json/recommendations.json'
-  
+
   export default {
     components: {
       SiteHeader,
@@ -84,7 +84,7 @@
           return recommendation.slug == params.slug;
         }
         var filtered = recommendations.filter(new_slug);
-        
+
         return {
             post: filtered[0],
         }
@@ -97,7 +97,7 @@
                 if(VideoElement.readyState >= 3){
                     VideoElement.classList.add('show')
                     clearInterval(b);
-                }                   
+                }
             }, 500);
         },
         swipeLeft () {
@@ -106,8 +106,8 @@
                 Tweenlite.fromTo( this.$refs.main, .6, {
                 opacity: 0,
                 x: 100
-            },{ 
-                ease: Expo.easeOut,
+            },{
+                ease: "elastic(1, 0.3)",
                 opacity: 1,
                 scale: 1,
                 x: 0,
@@ -124,8 +124,8 @@
                 Tweenlite.fromTo( this.$refs.main, .6, {
                 opacity: 0,
                 x: -100
-            },{ 
-                ease: Expo.easeOut,
+            },{
+                ease: "elastic(1, 0.3)",
                 opacity: 1,
                 scale: 1,
                 x: 0,
@@ -142,15 +142,15 @@
         highlight() {
             let em = this.$refs.headline.getElementsByTagName('em')[0];
             em.innerHTML =  `
-                ${em.innerHTML} 
+                ${em.innerHTML}
                 <svg class="mask">
-                    <pattern 
-                        id="p-img" 
+                    <pattern
+                        id="p-img"
                         patternUnits="userSpaceOnUse"
                         width="100%" height="120%"
-                        x="0" y="-25%"> 
+                        x="0" y="-25%">
                         <polyline id="draw" fill="none" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-	                        0,123.5 38.8,5.2 63.5,114.5 111,4.5 130.1,112.5 185.9,3.5 194.5,120 256.9,3 258.6,115 321.8,0 324.2,114 399.7,5.3 396.8,113 
+	                        0,123.5 38.8,5.2 63.5,114.5 111,4.5 130.1,112.5 185.9,3.5 194.5,120 256.9,3 258.6,115 321.8,0 324.2,114 399.7,5.3 396.8,113
 	                        470.9,6.5 459.8,123.5 547.3,4 525.9,121 615,2.5 601.7,114 "/>
                     </pattern>
                     <text text-anchor="middle"
@@ -162,15 +162,15 @@
                     </text>
                 </svg>
             `
-            setTimeout(function(){ 
+            setTimeout(function(){
                 em.classList.add('draw');
             }, 50);
             // remove the mask after drawing (because mobile cannot mask properly)
             let mask = em.getElementsByClassName('mask')[0]
             mask.style.transition = '.8s ease-in-out'
-            setTimeout(function(){ 
+            setTimeout(function(){
                 mask.classList.add('m-opacity--none')
-                setTimeout(function(){ 
+                setTimeout(function(){
                     mask.style.transition = '0s'
                 }, 600);
             }, 2300);
@@ -178,7 +178,7 @@
         openContent(value) {
             let self = this
             this.showContent = true;
-            setTimeout(function(){ 
+            setTimeout(function(){
                 self.scrollToAnchor(value);
             }, 500);
         },

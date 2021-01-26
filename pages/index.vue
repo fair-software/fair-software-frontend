@@ -26,11 +26,11 @@
 <script>
   import Tweenlite from 'gsap'
   import pages from '~/static/json/pages.json'
-  
+
   import SiteHeader from '~/components/Header'
   import SubNav from '~/components/Subnav'
   import PageNav from '~/components/PageNav'
-  
+
   export default {
     name: 'HomePage',
     components: {
@@ -51,10 +51,10 @@
             return page.slug == params.slug;
         }
         var filtered = pages.filter(new_slug);
-        
+
         return {
           page: filtered[0],
-          slug: params 
+          slug: params
         }
     },
     methods: {
@@ -63,8 +63,8 @@
             Tweenlite.fromTo( this.$refs.main, .6, {
             opacity: 0,
             y: 30
-            },{ 
-            ease: Expo.easeOut,
+            },{
+            ease: "elastic(1, 0.3)",
             opacity: 1,
             scale: 1,
             x: 0,
@@ -98,7 +98,7 @@
                 renderer: 'svg',
                 loop: true,
                 autoplay: true,
-                path: this.page.animation  
+                path: this.page.animation
             })
         }
     },
