@@ -65,7 +65,7 @@
     import SiteHeader from '~/components/Header'
     import SubNav from '~/components/Subnav'
     import PageNav from '~/components/PageNav'
-  
+
     export default {
         name: 'Page',
         components: {
@@ -102,7 +102,7 @@
                         //stop checking every half second
                         clearInterval(b);
 
-                    }                   
+                    }
                 }, 500);
             },
             swipeUp () {
@@ -110,8 +110,8 @@
                 Tweenlite.fromTo( this.$refs.main, .6, {
                 opacity: 0,
                 y: 30
-                },{ 
-                ease: Expo.easeOut,
+                },{
+                ease: "elastic(1, 0.3)",
                 opacity: 1,
                 scale: 1,
                 x: 0,
