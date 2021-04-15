@@ -166,6 +166,11 @@
                       "title" : "German Association for Research Software",
                       "link" : "https://de-rse.org",
                       "image" : "/img/de-RSE-logo.svg"
+                    },
+                    {
+                      "title" : "Illinois National Center for Supercomputing Applications",
+                      "link" : "http://www.ncsa.illinois.edu",
+                      "image" : "/img/NCSA_FullColor_Vert_RGB.svg"
                     }
                 ]
             }
