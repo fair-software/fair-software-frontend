@@ -171,6 +171,11 @@
                       "title" : "Illinois National Center for Supercomputing Applications",
                       "link" : "http://www.ncsa.illinois.edu",
                       "image" : "/img/NCSA_FullColor_Vert_RGB.svg"
+                    },
+                    {
+                      "title" : "The US Research Software Engineer Association",
+                      "link" : "https://us-rse.org",
+                      "image" : "/img/us_rse.png"
                     }
                 ]
             }
