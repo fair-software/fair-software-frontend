@@ -176,6 +176,11 @@
                       "title" : "The US Research Software Engineer Association",
                       "link" : "https://us-rse.org",
                       "image" : "/img/us_rse.png"
+                    },
+                  {
+                      "title" : "International Neuroinformatics Coordinating Facility (INCF)",
+                      "link" : "https://www.incf.org/",
+                      "image" : "/img/incf.png"
                     }
                 ]
             }
