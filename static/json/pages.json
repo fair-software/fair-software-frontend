@@ -188,8 +188,8 @@
                       "image" : "/img/dj2-large.png"
                     },
 		    {
-                      "title" : "https://helmholtz-metadaten.de/en/",
-                      "link" : "Helmholtz Metadata Collaboration",
+                      "title" : "Helmholtz Metadata Collaboration",
+                      "link" : "https://helmholtz-metadaten.de/en/",
                       "image" : "/img/HMC_Logo_kompakt_RGB_Blue.png"
 		    }
                 ]
