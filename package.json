@@ -17,7 +17,7 @@
     "axios": "^0.27.2",
     "gsap": "^3.12.2",
     "nodemailer": "^6.9.5",
-    "nuxt": "^2.17.1",
+    "nuxt": "^3.7.4",
     "nuxt-buefy": "^0.4.25"
   },
   "devDependencies": {
